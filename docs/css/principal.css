@@ -38,3 +38,11 @@
     margin: 5px;
     
 }
+
+.barra-pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 auto;
+    }
