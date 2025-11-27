@@ -52,3 +52,11 @@
     padding: 2px;
     border: 2px solid rgb(117, 117, 117); 
 }
+
+.btn-buscar{
+    border-radius: 15px;
+    padding: 2px;
+    border: 2px solid rgb(117, 117, 117); 
+    background-color: rgb(117, 117, 117);
+    color: white;
+}
