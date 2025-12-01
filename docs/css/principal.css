@@ -60,3 +60,40 @@
     background-color: rgb(117, 117, 117);
     color: white;
 }
+
+#menu-hamburguer{  
+    display: none;
+}
+
+.barra-menu{
+  width: 20%;
+  height: 100%;
+  background-color: rgb(5, 17, 22);
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: transform 1s ;
+  overflow: hidden; 
+  z-index: 1;
+
+  
+}
+
+.barra-menu ul {
+  list-style: none;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.barra-menu li {
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.espaco_li{
+    display: flex;
+   padding-bottom: 35px
+}
