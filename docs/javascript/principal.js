@@ -31,7 +31,7 @@ meuBotao.addEventListener("click", function() {
 });
 
 const meuBotaoo = document.getElementById("meuLaelee");
-const urlDestinoo = "../html/registrar.html";
+const urlDestinoo = "../html/sobre.html";
 
 meuBotaoo.addEventListener("click", function() {
   window.location.href = urlDestinoo;
