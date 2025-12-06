@@ -36,7 +36,7 @@ body {
   cursor: pointer;
 }
 
- #meuLaele{
+ #lanele{
   text-decoration: none;
   color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -47,7 +47,7 @@ body {
   
 }
 
-#meuLaelee{
+#lanelee{
   text-decoration: none;
   color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -80,7 +80,7 @@ body {
   display: block;
   width: 30px;
   height: 3px;
-  background-color: white;
+  background-color: rgb(10, 10, 10);
   margin-bottom: 5px;
   transition: transform 0.3s ease;
 }
