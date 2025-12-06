@@ -4,6 +4,101 @@ body {
   color: rgb(0, 0, 0);
 }
 
+#menu-hamburguer{  
+    display: none;
+}
+
+.barra-menu{
+  width: 20%;
+  height: 100%;
+  background-color: rgb(5, 17, 22);
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: transform 1s ;
+  overflow: hidden; 
+  z-index: 1;
+
+  
+}
+
+.barra-menu ul {
+  list-style: none;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.barra-menu li {
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ #meuLaele{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 6px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+#meuLaelee{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 6px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+#meuLa_ele{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 6px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+.hamburguer-btn{
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+.hamburguer-btn span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease;
+}
+
+#menu-hamburguer:checked ~ .barra-menu {
+  right: 0;
+}
+#menu-hamburguer:checked ~ .hamburguer-btn span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#menu-hamburguer:checked ~ .hamburguer-btn span:nth-child(2) {
+  opacity: 0;
+}
+
+#menu-hamburguer:checked ~ .hamburguer-btn span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
 /* colocar as letras com um degrade inicio */
 .txtlogo {
     font-size: 2.5rem;
