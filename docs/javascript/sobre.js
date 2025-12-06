@@ -23,7 +23,7 @@ meu_botao.addEventListener("click", function() {
 
 function mudar() {
     let msg = document.getElementById("mensage");
-    let texto = "Olá! Meu nome é Davison Foxx, tenho 18 anos e sou um entusiasta de tecnologia e desenvolvimento web. Atualmente, estou cursando o ensino médio, onde descobri minha paixão por programação e design de sites. Além dos estudos, gosto de explorar novas tecnologias, aprender sobre tendências digitais e trabalhar em projetos pessoais que me desafiam a crescer como desenvolvedor. Estou sempre em busca de oportunidades para aprimorar minhas habilidades e contribuir para a criação de experiências web inovadoras.";
+    let texto = "Olá! Meu nome é Davison Foxx, tenho 25 anos e sou um entusiasta de tecnologia e desenvolvimento web. Atualmente, estou trabalhando em outra área, onde descobri minha paixão por programação e design de sites. Gosto de explorar novas tecnologias, aprender sobre tendências digitais e trabalhar em projetos pessoais que me desafiam a crescer como desenvolvedor. Estou sempre em busca de oportunidades para aprimorar minhas habilidades e contribuir para a criação de experiências web inovadoras.";
     let info = document.getElementById("info")
     let btnInfo = document.querySelector(".bot1")
 

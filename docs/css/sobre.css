@@ -370,3 +370,96 @@ body {
 
 /* colocar as letras com um degrade fim */
 
+@media (max-width: 1024px) {
+  .bot1 {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+    margin: 18px auto !important;
+    display: block !important;
+    width: 220px;
+    height: 80px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .bot1 {
+    width: 200px !important;
+    height: 70px !important;
+    margin: 16px auto !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .bot1 {
+    width: 180px !important;
+    height: 60px !important;
+    margin: 12px auto !important;
+    display: block !important;
+  }
+}
+
+/* colocar as letras com um degrade inicio */
+#mensage {
+  /* mensagem responsiva (corrige typo) */
+  font-size: clamp(0.9rem, 3.6vw, 1.2rem);
+    /* Tamanho do texto */
+    font-weight: bold;
+    /* Deixa o texto mais espesso para o efeito funcionar melhor */
+    text-transform: uppercase;
+    /* 1. Define o fundo como um gradiente grande (ex: 400% da largura) */
+    background: linear-gradient(to right,
+            #ef5350,
+            /* Vermelho */
+            #f48fb1,
+            /* Rosa */
+            #7e57c2,
+            /* Roxo */
+            #2196f3,
+            /* Azul */
+            #26a69a,
+            /* Turquesa */
+            #2b2a24,
+            /* Amarelo */
+            #ef5350
+            /* Volta ao Vermelho */
+        );
+    background-size: 400% auto;
+    /* Torna o gradiente 4x maior que o elemento */
+
+    /* 2. Aplica o texto como uma máscara para o fundo */
+    -webkit-background-clip: text;
+    /* Efeito específico para navegadores Webkit (Chrome, Safari, Edge) */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Torna a cor do texto transparente */
+
+    /* 3. Inicia a animação */
+    animation: gradient-animation 15s ease infinite;
+    /* Nome da animação, duração, easing, loop infinito */
+}
+
+/* 4. Define os Keyframes da Animação */
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% center;
+        /* Posição inicial do gradiente */
+    }
+
+    50% {
+        background-position: 100% center;
+        /* Move o gradiente para a direita */
+    }
+
+    100% {
+        background-position: 0% center;
+        /* Retorna para a posição inicial */
+    }
+}
+
+/* colocar as letras com um degrade fim */
