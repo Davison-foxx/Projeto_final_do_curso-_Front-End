@@ -76,3 +76,18 @@ body {
   object-fit: cover;
 }
 
+.minha-imagem {
+  border: 1px solid black;
+  width: 450px;
+  height: 440px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
