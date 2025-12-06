@@ -24,7 +24,7 @@ $prev.addEventListener(
 
 //codigo que faz o  botoes do menu funcionarem 02
 const meuBotao = document.getElementById("meuLaele");
-const urlDestino = "../html/login.html";
+const urlDestino = "../html/principal.html";
 
 meuBotao.addEventListener("click", function() {
   window.location.href = urlDestino;
