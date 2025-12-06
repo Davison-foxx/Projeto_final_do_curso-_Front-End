@@ -21,3 +21,26 @@ $prev.addEventListener(
         prepend(items[items.length - 1]);
     },
 );
+
+//codigo que faz o  botoes do menu funcionarem 02
+const meuBotao = document.getElementById("meuLaele");
+const urlDestino = "../html/login.html";
+
+meuBotao.addEventListener("click", function() {
+  window.location.href = urlDestino;
+});
+
+const meuBotaoo = document.getElementById("meuLaelee");
+const urlDestinoo = "../html/registrar.html";
+
+meuBotaoo.addEventListener("click", function() {
+  window.location.href = urlDestinoo;
+});
+
+const meuLa_ele = document.getElementById("meuLa_ele");
+const url_Destino = "../html/registrar.html";
+
+meuLa_ele.addEventListener("click", function() {
+  window.location.href = url_Destino;
+});
+//fim 02
