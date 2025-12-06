@@ -73,7 +73,7 @@ btnTop.addEventListener("click", () => {
 });
 // fim 03
 
-function mudar() {
+/*function mudar() {
     let msg = document.getElementById("mensage");
     let texto = "Olá! Meu nome é Davison Foxx, tenho 18 anos e sou um entusiasta de tecnologia e desenvolvimento web. Atualmente, estou cursando o ensino médio, onde descobri minha paixão por programação e design de sites. Além dos estudos, gosto de explorar novas tecnologias, aprender sobre tendências digitais e trabalhar em projetos pessoais que me desafiam a crescer como desenvolvedor. Estou sempre em busca de oportunidades para aprimorar minhas habilidades e contribuir para a criação de experiências web inovadoras.";
     let info = document.getElementById("info")
@@ -93,7 +93,7 @@ if (msg.innerText === "") {
         msg.innerText = "";
         
     }
-}
+}*/
 
 /*//codigo que faz o  botoes do menu da pagina principal funcionarem 02
 const meuBot = document.getElementById("lanele");
