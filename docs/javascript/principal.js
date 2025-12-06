@@ -37,12 +37,12 @@ meuBotaoo.addEventListener("click", function() {
   window.location.href = urlDestinoo;
 });
 
-const meu_botao = document.getElementById("meuLa_ele");
+/*const meu_botao = document.getElementById("meuLa_ele");
 const url_Destino = "../html/registrar.html";
 
 meu_botao.addEventListener("click", function() {
   window.location.href = url_Destino;
-});
+});*/
 //fim 02
 
 // codigo que faz o botao de rolarem para o topo funcionar 03
