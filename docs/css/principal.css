@@ -256,6 +256,7 @@
 
 .content .name {
     font-size: 40px;
+    color:  rgb(5, 17, 22);
     text-transform: uppercase;
     font-weight: bold;
     opacity: 0;
@@ -545,9 +546,7 @@ ol:hover:nth-child(4) {
         position: absolute;
         /* manter posicionamento absoluto para preservar layout do carrossel */
     }
-    .background {
-        display: none; /* esconder vídeo em telas pequenas para desempenho */
-    }
+   
     #btnTop {
         bottom: 12px;
         right: 12px;
