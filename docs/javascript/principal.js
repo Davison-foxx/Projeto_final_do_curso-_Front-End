@@ -37,10 +37,10 @@ meuBotaoo.addEventListener("click", function() {
   window.location.href = urlDestinoo;
 });
 
-const meuLa_ele = document.getElementById("meuLa_ele");
+const meu_botao = document.getElementById("meuLa_ele");
 const url_Destino = "../html/registrar.html";
 
-meuLa_ele.addEventListener("click", function() {
+meu_botao.addEventListener("click", function() {
   window.location.href = url_Destino;
 });
 //fim 02
