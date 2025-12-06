@@ -8,7 +8,8 @@
 </head>
 <body>
 
-   <input type="checkbox" id="menu-hamburguer" />
+   <header>
+  <input type="checkbox" id="menu-hamburguer" />
           <label for="menu-hamburguer" class="hamburguer-btn">
             <span></span>
             <span></span>
@@ -22,17 +23,18 @@
             </ul>
           </nav>
 
-     <main class="principal">
-      <video autoplay muted loop class="background">
-        <source src="video-fundo/videoplayback.mp4" type="video/mp4" />
-      </video>
-    </main>
-
     <h1 class="txtlogo">Sobre Mim</h1>
 
     <div class="imagem">
       <img class="minha-imagem" src="image-login/minha_imagem.jpg" alt="" />
     </div>
+    </header>
+    <main>
+      <main class="principal">
+      <video autoplay muted loop class="background">
+        <source src="video-fundo/videoplayback.mp4" type="video/mp4" />
+      </video>
+    </main>
 
      <div id="info">
       <button class="bot1" onclick="mudar()">
@@ -40,6 +42,7 @@
       </button>
       <p id="mensage"></p>
     </div>
+    </main>
 
     <script src="../javascript/sobre.js"></script>
 </body>
